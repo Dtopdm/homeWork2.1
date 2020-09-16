@@ -22,8 +22,17 @@ public class Automatic_Car extends Car {
         System.out.println(" Машина просигналила " +sound+" "+num+" раза");
     }
 
-    public final void distance (int distance){
+    public void makeSound (int num){
+        System.out.println(" Машина просигналила "+num+" раза");
+
+    }
+
+    public void distance (int distance){
         System.out.println("Машина проехала "+distance+" км.");
+    }
+
+    public final void distance (double speed, int distance){
+        System.out.println("Машина проехала "+distance+" км. со скоростью "+speed+" км/ч");
     }
 
     public void getInfo(){

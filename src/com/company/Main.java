@@ -10,9 +10,11 @@ public class Main {
 
         objectA.makeSound("BEEP", 3);
         objectA.getInfo();
-        objectB.makeSound("BEEP", 2);
+        objectB.makeSound(3);
         objectB.getInfo();
-        objectC.makeSound("BEEP", 1);
+        objectC.distance(300);
+        objectC.getInfo();
+        objectC.distance(150.5, 200);
         objectC.getInfo();
 
     }
